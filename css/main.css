@@ -1,0 +1,127 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* tekst */
+
+p{
+	family-font:'WebFont', Arial, sans-serif;
+	font-style:normal;
+	font-size: 11px;
+	color: black;
+	text-align: center;
+	padding-top: 20px;
+}
+
+
+.titel{
+	font-style: bold;
+	color: #8c6b76;
+	font-size: 15px;
+	text-align: center;
+} 
+
+.display-3{
+	font-family: 'Dancing Script';
+	color: white;
+	font-size: 35px;
+	padding-top: 10px;
+	text-align: center;
+	letter-spacing: 6px; 
+}
+
+.lead{
+	color: white;
+	font-size: 12px;
+	text-align: right;
+}
+
+#info{
+	color:white;
+	font-size: 10px;
+	text-align:center;
+}
+
+/*titel*/
+
+.head{
+	background-color: #8aacaf;
+	opacity: 0.4;
+}
+
+.img2{
+	width: 133px;
+	height: 92px;
+	object-fit: cover;	
+}
+
+.img{
+	width: 370px;
+	height: 500px;
+	object-fit: cover;
+}
+
+.download{
+	width: 27px;
+	left: 113px;
+	background-image:url(../images/sprite.png);
+	
+}
+
+/* jumbotron */
+
+.jumbotron {
+	background:url(../images/pexels-photo-374703.jpeg) no-repeat center;
+	background-size: cover;
+}
+
+
+/*opmaak*/
+
+.link_track {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 13px;
+	font-family: 'dancing Script';
+	color: white;
+	background-color: #8aacaf;
+}
+
+/*Extra small devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap*/
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { ... }
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+p{
+	font-size: 13px;
+	}
+.display-3{
+	font-size: 60px;
+	}
+.lead{
+	font-size: 20px;
+	}
+#info{
+	font-size: 20px;
+	}
+.tracks{
+	font-size: 20px;
+	}
+.titel{
+	font-size: 23px;
+	}
+.link_track{
+	font-size: 23px;
+	}
+	
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { ... }
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
