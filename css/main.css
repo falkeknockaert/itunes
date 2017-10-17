@@ -12,8 +12,14 @@ p{
 	padding-top: 20px;
 }
 
-#welkom{
+.welkom{
 	color: white;
+	font-size: 17px;
+	position: absolute;
+	margin-top: 500px;
+	margin-right: 25px;
+	font-style: thin;
+	
 }
 
 .info{
@@ -35,14 +41,13 @@ p{
 	color: white;
 	font-size: 35px;
 	padding-top: 10px;
-	text-align: center;
 	letter-spacing: 6px; 
 }
 
 .lead{
 	color: white;
 	font-size: 12px;
-	text-align: center;
+	margin-right: 22px;
 }
 
 /*titel*/
@@ -85,6 +90,15 @@ p{
 	background-color: #8aacaf;
 }
 
+.btn-outline-primary{
+	color:#8c6b76;
+	border-color: #8c6b76;
+}
+
+.btn-primary:hover{
+	color:#fff;
+	background-color: #8c6b76;
+}
 
 /*Extra small devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap*/
